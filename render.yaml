@@ -1,0 +1,14 @@
+# Render blueprint: one web service hosts the app and the API.
+services:
+  - type: web
+    name: kinara-relief
+    runtime: node
+    plan: free
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: NODE_VERSION
+        value: 20

@@ -1,0 +1,16 @@
+[
+  {
+    "username": "coordinator",
+    "name": "Dr. Sana Memon",
+    "role": "Relief Coordinator",
+    "salt": "bb098b8e5ab4e48a1276cfc99e9c5c34",
+    "hash": "898eec422cb9b2be6a2da599399804a4471388d984ea9a7791b0894f281adb27729dc72eec3a295ce6eb319910b3eabe4c90ad16d9f512c25e9beca85c8cf216"
+  },
+  {
+    "username": "volunteer",
+    "name": "Bilal Chandio",
+    "role": "Field Volunteer",
+    "salt": "ddf67882880bf64496442d118b3135f8",
+    "hash": "38982a69a756b8d379ea2c844a15ab63153eb5fcfc4c85724d6f25e17ff7859db1291d51701496f9dfafa5cc8fc4ee35d772fb25ac184d6aade232815fc24492"
+  }
+]
